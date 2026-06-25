@@ -1,0 +1,55 @@
+.HContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 25px;
+  background-color: #1e1e2f;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Left side links */
+.left {
+  display: flex;
+  gap: 20px;
+}
+
+.left a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.left a:hover {
+  color: #00d4ff;
+}
+
+/* Right side user section */
+.right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+}
+
+/* Logout button */
+.right button {
+  padding: 6px 12px;
+  border: none;
+  background-color: #ff4d4d;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.right button:hover {
+  background-color: #e60000;
+}
+
+/* Guest text */
+.right span {
+  font-weight: 500;
+}
